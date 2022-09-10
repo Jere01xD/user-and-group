@@ -1,0 +1,18 @@
+-entra al super usuario/root
+su - :contraseña
+
+-crea grupo casa 
+groupadd casa 
+
+-crea usuarios
+useradd Jose
+useradd Jeremy
+
+-añadimos usuarios a grupo casa 
+adduser Jose casa
+adduser Jeremy casa 
+
+-cambiamos nombre al grupo casa por familia 
+groupmod -n familia casa 
+
+Alumno: Jeremy Ernesto Aguilar Saravia 
